@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-e!^v3w1axgeq7f(u)a=2!@v9zqvm1kds(qq)i=p#6(ks0hggt_
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-terintealexa-djangoblog-rjr4wm3t4t0.ws-eu108.gitpod.io','.herokuapp.com']
 
@@ -93,6 +93,10 @@ DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://*.codeanyapp.com",
+    "https://*.herokuapp.com"
+]
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
