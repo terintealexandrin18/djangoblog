@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-e!^v3w1axgeq7f(u)a=2!@v9zqvm1kds(qq)i=p#6(ks0hggt_
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-terintealexa-djangoblog-rjr4wm3t4t0.ws-eu108.gitpod.io','.herokuapp.com']
 
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_summernote',
     'blog',
 ]
 
