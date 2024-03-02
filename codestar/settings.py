@@ -36,7 +36,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-terintealexa-djangoblog-rjr4wm3t4t0.ws-eu108.gitpod.io','.herokuapp.com']
+ALLOWED_HOSTS = ['8000-terintealexa-djangoblog-bpwrpoaaay0.ws-eu108.gitpod.io','.herokuapp.com']
 
 
 # Application definition
@@ -114,7 +114,8 @@ CSRF_TRUSTED_ORIGINS = [
     "https://*.codeanyapp.com",
     "https://*.herokuapp.com",
     "https://*.gitpod.io.com",
-    "https://8000-terintealexa-djangoblog-rjr4wm3t4t0.ws-eu108.gitpod.io"
+    "https://8000-terintealexa-djangoblog-rjr4wm3t4t0.ws-eu108.gitpod.io",
+    "https://8000-terintealexa-djangoblog-bpwrpoaaay0.ws-eu108.gitpod.io",
    
 ]
     
