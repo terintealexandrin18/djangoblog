@@ -9,6 +9,10 @@ body {
     color: #4A4A4F;
 }
 
+.profile-image {
+    width: 75%;
+}
+
 .red-o {
     color: #E84610;
 }
